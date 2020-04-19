@@ -15,7 +15,7 @@ def OpponentChoose():
     Set = [playerList[player1Index],playerList[player2Index]]
     playerList.remove(Set[0])
     playerList.remove(Set[1])
-    print("Match is between:",Set)
+    print(Set[0]+" V "+Set[1])
     return playerList
 
 #Modify this list
