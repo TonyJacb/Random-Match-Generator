@@ -9,4 +9,8 @@ To make it more user friendly, the script was given a very basic GUI using PySim
 
 ### Running on CLI
 Open the folder in terminal
-'''python3 gui.py'''
+'''
+
+python3 gui.py
+
+'''
