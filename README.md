@@ -9,9 +9,6 @@ To make it more user friendly, the script was given a very basic GUI using PySim
 
 ### Running on CLI
 Open the folder in terminal
+<pre><code>python3 gui.py
+</code></pre>
 
-' ' '
-
-python3 gui.py
-
-' ' '
