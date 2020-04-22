@@ -5,3 +5,4 @@ This came to fruition when my friends and I decided to have a bracket match tour
 
 ### Adding a GUI
 To make it more user friendly, the script was given a very basic GUI using PySimpleGUI python package.
+![GUI-for-the-script](https://github.com/TonyJac/Random-Match-Generator/blob/master/motion.gif)
