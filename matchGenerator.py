@@ -31,5 +31,7 @@ def matchView(count,playerList):
     return matches                                  #New list without the already chosen players is passed to iterate again
 
 #Modify this list
-playerList = ["Tony","Eric","Jean","Philip","Christin","Suraj","Jose","Joshua","Crystal","Mohammed","Naveen","Rithwik","Varun","Steve"]
+playerList = [
+    "Tony","Eric","Jean","Philip","Christin","Suraj","Jose","Joshua","Crystal","Mohammed","Naveen","Rithwik","Varun","Steve"
+            ]
 count = int(len(playerList)/2)
