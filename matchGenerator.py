@@ -18,18 +18,18 @@ def OpponentChoose():
     Set = [playerList[player1Index],playerList[player2Index]]   #Sets match
     playerList.remove(Set[0])
     playerList.remove(Set[1])                                   #Deletes them from the original list
-    print(Set[0]+" V "+Set[1])
-    return playerList
+    return playerList, Set
 
 #Main Function
 def matchView(count,playerList):
+    matches=[]
     for i in range (count):                                     #Iterates till max number of 1v1 matches can be made
         player1Index,player2index = playerTake(playerList)
-        playerList = OpponentChoose()
-        playerList= playerList                                  #New list without the already chosen players is passed to iterate again
+        playerList, Set = OpponentChoose()
+        matches.append(Set)
+        playerList= playerList
+    return matches                                  #New list without the already chosen players is passed to iterate again
 
 #Modify this list
 playerList = ["Tony","Eric","Jean","Philip","Christin","Suraj","Jose","Joshua","Crystal","Mohammed","Naveen","Rithwik","Varun","Steve"]
 count = int(len(playerList)/2)
-
-matchView(count,playerList)
