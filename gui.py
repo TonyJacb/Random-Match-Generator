@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import PySimpleGUI as sg
 import matchGenerator
 from matchGenerator import count,playerList
